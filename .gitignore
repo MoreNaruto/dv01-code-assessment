@@ -55,3 +55,10 @@ jitwatch.out
 project/**/metals.sbt
 
 .bsp
+
+# Ignore Loan CSV file
+conf/data/*.csv
+
+app/.DS_Store
+conf/.DS_Store
+test/.DS_Store
